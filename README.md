@@ -1,5 +1,5 @@
 # sensortag-file-async
-Collect data from TI Sensortag and store to file using [Axiomware's](http://www.axiomware.com) [netrunr-gapi-async](http://www.axiomware.com/apidocs/index.html) Javascript SDK
+Collect data from [TI Sensortag](http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User%27s_Guide) and store to file using [Axiomware's](http://www.axiomware.com) [netrunr-gapi-async](http://www.axiomware.com/apidocs/index.html) Javascript SDK
 
 Program to illustrate Netrunr API functions. The program will perform the following functions: 1) connect to your account, 2) list all gateways associated with this account and use UI to select one or more of the gateways, 3) connect to the selected gateway(s), 4) scan for advertisements and filter to show only TI Sensortag devices, 5) Connect to one or more Sensortag devices, 6) collect multi-sensor data and 7) save to file if needed.
 
